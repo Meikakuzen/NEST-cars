@@ -659,7 +659,7 @@ export class CarsService {
 -----
 - Primero hay que verificar que el coche con ese id existe
 - Para ello usaré el método creado anteriormente findOneById
-- Uso el filter para devolver un arreglo sin el id (coche) correspondiente
+- Uso el filter para devolver un arreglo sin el id (coche) correspondiente.
 ~~~ts
     delete(id: string){
         let carDB = this.findOneById(id)
